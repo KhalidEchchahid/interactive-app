@@ -1,0 +1,148 @@
+*{
+    box-sizing: border-box;
+
+}
+body{
+    margin: 0%;
+
+}
+header > img{
+    height: 100%;
+    margin-right: 6px;
+}
+header > h2{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0px;
+    font-size: 1.2rem;
+    margin-right: auto;
+}
+header{
+    display: flex;
+    align-items: center;
+    height: 65px;
+    padding: 20px;
+    color: white;
+    background: linear-gradient(90deg ,#672280 1.18% , #A626D3 100%);
+}
+
+header > h4{
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+.button{
+    width: 100%;
+    height: 40px;
+    border: none;
+    background: linear-gradient(90deg ,#672280 1.18% , #A626D3 100%);
+    border-radius: 7px;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+input[type='text']{
+    width: 49%;
+    height: 35px;
+    border-radius: 7px;
+    border: 1px solid rgba(243, 147, 147, 0.103);
+    text-indent: 10px;
+}
+.first-button{
+    margin-left: 2%;
+}
+main{
+    padding: 40px 0px ;
+}
+
+
+.counter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.counter > button {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    background-color: #737373;
+    color: #D9D9D9;
+    font-size: 1.5rem;
+}
+
+.counter > button:hover {
+    background-color: #404040;
+    color: #D9D9D9;
+}
+
+.counter > button:focus {
+    outline: none;
+}
+
+.counter--count {
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #262626;
+}
+
+.counter--plus {
+    margin-left: -20px;
+}
+
+.counter--minus {
+    margin-right: -20px;
+    z-index: 1;
+}
+
+.memeimage {
+    max-width: 100%;
+    border-radius: 3px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.meme--text {
+    position: absolute;
+    width: 80%;
+    top: 50%;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 15px 0;
+    padding: 0 5px;
+    font-family: impact, sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow:
+        2px 2px 0 #000,
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        0 2px 0 #000,
+        2px 0 0 #000,
+        0 -2px 0 #000,
+        -2px 0 0 #000,
+        2px 2px 5px #000;
+}
+
+.bottom {
+    bottom: 0;
+}
+
+.top {
+    top: 32%;
+}
